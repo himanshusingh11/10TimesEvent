@@ -66,6 +66,19 @@ const ListingPage = ({ eventData }) => {
     fetchData();
   }, [eventData]);
 
+  const formatDate = (dateTime) => {
+    const options = {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+      hour: "numeric",
+      minute: "numeric",
+      second: "numeric",
+      hour12: true,
+    };
+    return new Date(dateTime).toLocaleDateString(undefined, options);
+  };
+
   return (
     <div className="container mt-4" id="events-listing">
       <hr />
@@ -84,9 +97,9 @@ const ListingPage = ({ eventData }) => {
               <div className="card-body">
                 <h5 className="card-title">{event.eventName}</h5>
                 <p className="card-text">
-                  <strong>Start Time:</strong> {event.startDate}
+                  <strong>Start Time:</strong> {formatDate(event.startDate)}
                   <br />
-                  <strong>End Time:</strong> {event.endDate}
+                  <strong>End Time:</strong> {formatDate(event.endDate)}
                   <br />
                   <strong>Location:</strong> {event.location}
                 </p>
