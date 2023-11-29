@@ -1,6 +1,6 @@
-{
-  "parser": "babel-eslint",
-  "rules": {
-    // Add specific ESLint rules if needed
-  }
-}
+// {
+//   "parser": "babel-eslint",
+//   "rules": {
+//     // Add specific ESLint rules if needed
+//   }
+// }
