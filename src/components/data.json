@@ -1,0 +1,52 @@
+[
+  {
+    "eventName": "Music Festival",
+    "startDate": "2023-12-02T22:08:57.848Z",
+    "endDate": "2023-12-07T12:44:18.530Z",
+    "location": "New York",
+    "tickets": 132,
+    "approvalRequired": false,
+    "capacity": 276,
+    "visibility": "private"
+  },
+  {
+    "eventName": "Art Exhibition",
+    "startDate": "2023-11-30T09:17:41.865Z",
+    "endDate": "2023-12-02T23:18:53.159Z",
+    "location": "Los Angeles",
+    "tickets": 92,
+    "approvalRequired": true,
+    "capacity": 133,
+    "visibility": "public"
+  },
+  {
+    "eventName": "Food Expo",
+    "startDate": "2023-12-19T10:09:24.901Z",
+    "endDate": "2023-12-19T23:30:37.654Z",
+    "location": "London",
+    "tickets": 110,
+    "approvalRequired": false,
+    "capacity": 203,
+    "visibility": "private"
+  },
+  {
+    "eventName": "Tech Conference",
+    "startDate": "2023-12-17T20:46:06.702Z",
+    "endDate": "2023-12-19T03:44:48.007Z",
+    "location": "Paris",
+    "tickets": 144,
+    "approvalRequired": false,
+    "capacity": 250,
+    "visibility": "public"
+  },
+  {
+    "eventName": "Fitness Bootcamp",
+    "startDate": "2023-12-16T01:17:29.286Z",
+    "endDate": "2023-12-20T09:38:19.600Z",
+    "location": "Tokyo",
+    "tickets": 138,
+    "approvalRequired": false,
+    "capacity": 232,
+    "visibility": "public"
+  }
+]
